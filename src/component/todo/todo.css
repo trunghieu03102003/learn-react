@@ -1,0 +1,70 @@
+
+.todo-title{
+    font-size: 28px;
+    color: red;
+}
+.todo-input{
+    border: none;
+    outline: none;
+    background-color: #eceaea;
+    padding: 10px;
+    color: #333;
+}
+.todo-submit{
+    background-color: rgb(4, 165, 165);
+    color: #fff;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 6px;
+}
+.todo-container{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.todo-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.todo-item{
+    width: 800px;
+    text-align: start;
+}
+.todo-item{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    font-size: 16px;
+    padding: 10px;
+}
+.todo-item-delete{
+    border: none;
+    outline: none;
+    padding: 8px;
+    background-color: rgb(4, 165, 165);
+    color: white;
+    border-radius: 4px;
+}
+.add-btn{
+    padding: 8px;
+    color: white;
+    background-color: rgb(16, 161, 161);
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    margin-left: 8px;
+}
+.delete-btn{
+    padding: 8px 12px;
+    color: white;
+    background-color: rgb(16, 161, 161);
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
